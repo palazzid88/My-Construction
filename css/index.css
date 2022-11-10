@@ -7,8 +7,10 @@
 }
 
 body {
-    background-color: black;
-    /* background-image: url("../pages/img/architecture-gb9b9a9509_1920.jpg"); */
+    background-image: url("../pages/img/architecture-gb9b9a9509_1920.jpg");
+    background-size: cover;
+    margin: auto;
+    /* background-color: black; */
 }
 
 .navbar-flex {
