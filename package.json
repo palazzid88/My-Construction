@@ -1,0 +1,25 @@
+{
+  "name": "my-construction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buid-css": "node-sass --include-path scss scss/style.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \npmrun build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/palazzid88/My-Construction.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/palazzid88/My-Construction/issues"
+  },
+  "homepage": "https://github.com/palazzid88/My-Construction#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
