@@ -1,31 +1,81 @@
 /*INDEX*/
 
 
+
 .logo_img {
     width: 650px;
+    margin-bottom: 25px;
 }
 
 .img_1{
-    width: 300px;
+    width: 400px;
+}
+
+.box_contacto {
+    // margin: auto;
+    .contacto_box_list{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        margin-top: 310px;
+        // margin: 10px;
+        // padding: 10px;
+        .contacto_list_item{
+            transform: rotate(-90deg);
+            // display: inline-flex;
+            padding-bottom: 70px;
+            .item_a{
+                margin: 10px;
+                // padding-block: 50px;
+            }
+        }
+    }
+
+}
+
+
+.box_picture {
+    margin-bottom: 20px;
 }
 
 .box_article {
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 
 }
 
+.box_article_title {
+    margin-bottom: 25px;
+}
+
 .box_article_text {
     display: flex;
     flex-direction: column;
+    margin-top: 25px;
+}
+
+.box_article_img {
+    margin-right: 20px;
 }
 
 .box_article_h2 {
     display: flex;
     flex-direction: row;
     text-align: center;
-    justify-content: center;
+    justify-content: flex-start;
+
+}
+
+h5 {
+    color: gray;
+    background: lightgray;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
 }
 
 .box_article_h2_1 {
@@ -37,3 +87,17 @@
     flex-direction: column;
 }
 
+.box_banner {
+    display: inline-block;
+    width: 200px;
+}
+
+.div_flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.img_banner {
+    width: 150px;
+    margin-top: 25px;
+}
