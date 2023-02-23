@@ -3,7 +3,7 @@
 
 
 .logo_img {
-    width: 650px;
+    width: 320px;
     margin-bottom: 25px;
 }
 
@@ -12,12 +12,13 @@
 }
 
 .box_contacto {
+    width: 25px;
     // margin: auto;
     .contacto_box_list{
         list-style: none;
         display: flex;
         flex-direction: column;
-        margin-top: 310px;
+        margin-top: 150px;
         // margin: 10px;
         // padding: 10px;
         .contacto_list_item{
@@ -35,17 +36,27 @@
 
 
 .box_picture {
-    margin-bottom: 20px;
+    // margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .box_article {
-    max-width: 1200px;
+    max-width: 1400px;
     width: 90%;
     margin: auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+    // flex-wrap: wrap;
 
+}
+
+.box_article_info {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
 }
 
 .box_article_title {
@@ -58,9 +69,9 @@
     margin-top: 25px;
 }
 
-.box_article_img {
-    margin-right: 20px;
-}
+// .box_article_img {
+//     // margin-right: 20px;
+// }
 
 .box_article_h2 {
     display: flex;
@@ -89,7 +100,7 @@ h5 {
 
 .box_banner {
     display: inline-block;
-    width: 200px;
+    // width: 200px;
 }
 
 .div_flex{
@@ -98,7 +109,7 @@ h5 {
 }
 
 .img_banner {
-    width: 150px;
+    width: 100px;
     margin-top: 25px;
 }
 
